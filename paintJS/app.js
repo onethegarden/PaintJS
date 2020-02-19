@@ -34,6 +34,7 @@ function onMouseDown(event){
 }
 function handleColorClick(event){
     const color= event.target.style.backgroundColor;
+    ctx.strokeStyle = color;
     console.log(color);
 }
 if(canvas){
